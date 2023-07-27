@@ -1,0 +1,393 @@
+body {
+  background-color: #001c27;
+}
+.background-color
+{
+  background-color: #001c27;
+}
+/*---------------------------------------------------------------------------------------MEDIA QUERIES*/
+@media screen and (max-width: 576px) {
+  .navbar-image {
+    width: 100px !important;
+  }
+  .hypnosis-treatment-1,
+  .hypnosis-treatment-2 {
+    padding: 10px 20px !important;
+    font-size: 13px;
+  }
+  .hypnosis-treatment h1 {
+    font-size: 20px;
+  }
+  .download-app-text p {
+    font-size: 12px !important;
+    color: white;
+  }
+  .contact-text {
+    font-size: 40px !important;
+  }
+  .Testimonials-cards-inner i {
+    margin: 0px 15px !important;
+  }
+  .Testimonials-cards p {
+   font-size: 13px !important;
+   
+  }
+  .Testimonials-cards-image-1
+  {
+    width: 30px;
+
+    margin-right: 0px;
+    padding: 0px !important;
+  }
+  .Testimonials-cards-image-2
+  {
+    width: 100px;
+    margin-left: 0px;
+    padding: 0px !important;
+  }
+  .Testimonials-cards img{
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .banner {
+    height: 700px;
+  }
+  .carousel-caption p {
+    font-size: 8px !important;
+  }
+  .how-hypnotherapy-works-cards {
+    height: auto !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .banner {
+    height: 700px;
+  }
+}
+
+/*---------------------------------------------------------------------------------------NAVBAR*/
+.navbar-image {
+  width: 150px;
+}
+.nav-item {
+  padding: 0px 20px;
+}
+.nav-link,.nav-link:active{
+  color: white !important;
+  font-size: 20px;
+}
+.nav-link:visited {
+  color: white !important;
+  text-decoration: underline;
+}
+.navbar {
+  padding: 40px;
+}
+.navbar-toggler i {
+  color: white;
+}
+.navbar-toggler,
+.navbar-toggler:active {
+  border-color: white;
+}
+
+/*---------------------------------------------------------------------------------------BANNER*/
+.banner {
+  background-image: url("images/image\ 1.png");
+  background-size: cover;
+  background-position: center top;
+  padding-bottom: 30px;
+  min-height: 500px;
+}
+.banner-text1,
+.banner-text3 {
+  font-size: 30px;
+}
+.banner-text2 {
+  font-size: 60px;
+}
+.banner-text1 {
+  margin-top: 40px;
+}
+
+/*---------------------------------------------------------------------------------------AS SEEN ON*/
+.logo-carousel {
+  margin: 10px 0px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.logo-carousel-pic {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.logo-carousel-text {
+  font-weight: 500;
+}
+
+/*---------------------------------------------------------------------------------------hypnosis-treatment*/
+.hypnosis-treatment {
+  color: white;
+  margin: 60px 0px;
+}
+.hypnosis-treatment-1 {
+  background-image: url("images/Unknown\ gradient.png");
+}
+.hypnosis-treatment-2 {
+  background-image: url("images/Aaron_S\ 0060\ Â©ivan\ weiss\ gradient.png");
+}
+.hypnosis-treatment-1,
+.hypnosis-treatment-2 {
+  background-size: cover;
+  border-radius: 20px;
+  text-align: center;
+  padding: 100px 20px;
+}
+/*---------------------------------------------------------------------------------------hypnosis-treatment-slider*/
+.carousel-caption p {
+  font-size: 13px;
+}
+.slider-background {
+  background-image: url('images/Rectangle\ 64.png');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 10px;
+}
+.carousel-item img {
+  border-radius: 30px;
+}
+.slider-block
+{
+  filter: drop-shadow(0px 0px 12px rgb(0, 242, 255));
+}
+/*---------------------------------------------------------------------------------------download-app*/
+.download-app-text p {
+  font-size: 20px;
+  color: white;
+}
+.download-app-text {
+  padding: 20px 0px;
+}
+.download-app-image {
+  align-self: center;
+}
+
+/*---------------------------------------------------------------------------------------how-hypnotherapy-works*/
+.how-hypnotherapy-works {
+
+  padding: 20px 15vw;
+  text-align: center;
+  color: black;
+}
+.how-hypnotherapy-works-container
+{
+  background-image: url("images/Aaron_S\ 0212\ Â©ivan\ weiss\ gradient.png");
+  background-size: cover;
+  background-position: center top;
+  border-top: 30px solid #001c27;
+}
+.how-hypnotherapy-works-cards {
+  margin: 10px;
+  background-color: rgb(249, 249, 249) !important;
+  border-radius: 20px;
+  padding: 15px 10px ;
+  height: 210px;
+}
+.how-hypnotherapy-works-text {
+  color: white;
+  margin: 20px 0px;
+}
+.card
+{
+  background-color: transparent;
+  border-color: transparent
+}
+/*---------------------------------------------------------------------------------------testimonials*/
+.Testimonials-card div {
+  background-color: white;
+  border-radius: 30px;
+  margin: 20px;
+  text-align: center;
+  align-self: center;
+  padding: 40px 10px 20px 10px;
+  height: 200px;
+  overflow: hidden;
+}
+.Testimonials-card{
+  background-color: #001c27 !important;
+}
+.testimonials-text {
+  text-align: center;
+  color: white;
+  margin: 40px 0px;
+  padding:0px;
+}
+.testimonials-text h1 {
+  margin-bottom: 20px;
+}
+.testimonials-text p a {
+  color: white !important;
+  text-decoration: none;
+}
+.active-button {
+  text-decoration: underline !important;
+}
+
+.Testimonials-cards {
+  height: 400px !important;
+  position: relative;
+  margin: 20px 20px;
+}
+.Testimonials-cards img {
+  padding: 10px 20px;
+}
+.Testimonials-cards p {
+  padding: 10px 20px;
+}
+.Testimonials-cards-inner {
+  position: absolute;
+  bottom: -70px;
+  background-color: #00415a !important;
+  color: white;
+}
+.person-image {
+  border-radius: 100%;
+  width: 100px;
+}
+.Testimonials-cards-inner i {
+  margin: 0px 20px;
+}
+.Testimonials-cards-inner h4 {
+  font-weight: 500;
+}
+.testimonials-button {
+  text-align: center;
+}
+.testimonials-button,.testimonials-button:active,.testimonials-button:visited
+{
+  border-color: transparent !important;
+  background-color: transparent !important;
+}
+video
+{
+  object-fit: cover;
+  height: 100%;
+  object-position: center;
+}
+/*---------------------------------------------------------------------------------------media appearancves*/
+.media-appearances img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.ma-button {
+  background-color: #0001023f;
+  border: 2px solid white;
+  height: 30px;
+  width: auto;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+/*---------------------------------------------------------------------------------------what does it cost*/
+
+.What-does-it-cost-cards div {
+  background-image: url("images//Rectangle\ 82\ gradient.png");
+  background-size: cover;
+  border-radius: 30px;
+  margin: 10px 20px 30px;
+  padding: 40px 40px;
+  overflow: hidden;
+  height: 350px;
+  position: relative;
+}
+.What-does-it-cost-cards h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+.What-does-it-cost-cards p {
+  font-size: 30px;
+}
+
+/*---------------------------------------------------------------------------------------subconscious*/
+.subconscious {
+  background-image: url("images/Rectangle\ 97.png");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  padding-bottom: 30px;
+}
+.subconscious-heading h1 {
+  margin: 80px 0px;
+}
+.subconscious-image img {
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+  width: 99%;
+
+}
+.subconscious-image-1,
+.subconscious-image-2,
+.subconscious-image-3 {
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  filter: drop-shadow(0px 0px 15px rgb(0, 0, 0));
+}
+.subconscious-image-1 {
+  background-image: url("images/Rectangle\ 94\ gradient.png");
+}
+.subconscious-image-2 {
+  background-image: url("images/Rectangle\ 95\ gradient.png");
+}
+.subconscious-image-3 {
+  background-image: url("images/Rectangle\ 96\ gradient.png");
+}
+.subconscious-image button {
+  margin-bottom: 20px;
+}
+.subconscious-image
+{
+  width: 100%;
+}
+/*---------------------------------------------------------------------------------------contact us*/
+.contact-row-1 {
+  height: 100px;
+}
+.contact-row-2 {
+  height: 400px;
+  background-image: url('images/Rectangle\ 101.png');
+  background-size: cover;
+  background-position: center;
+}
+.contact-text {
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+  color: white;
+  font-size: 60px;
+}
+
+/*---------------------------------------------------------------------------------------footer*/
+.footer {
+  color: white;
+  background-color: #00415a;
+  padding: 50px 0px;
+}
+.footer-col-1,
+.footer-col-2 {
+  text-align: left;
+  line-height: 2.5;
+  margin: 20px 0px;
+}
+.footer-col-1 i {
+  margin: 0px 10px;
+}
+.footer-text {
+  text-align: center;
+  color: white;
+}
