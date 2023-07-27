@@ -265,10 +265,14 @@ body {
 .testimonials-button {
   text-align: center;
 }
-.testimonials-button,.testimonials-button:active,.testimonials-button:visited
+.testimonials-button,.testimonials-button:active,.testimonials-button:visited,.testimonials-button
 {
-  border-color: transparent !important;
+  border-color: white;
   background-color: transparent !important;
+}
+.testimonials-button:hover
+{
+border-color: aliceblue;
 }
 video
 {
